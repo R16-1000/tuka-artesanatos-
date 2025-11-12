@@ -1,0 +1,65 @@
+/* FUNDO */
+body {
+    background-color: #99d4c7;
+}
+
+/* BORDAS E FUNDO DAS BORDAS */
+.borda {
+    margin-top: 5px;
+    border-radius: 10px;
+    border-color: #1f3e2e;
+    border-style: dashed;
+    border-width: 3px;
+    background-color: #7d4c6f;
+}
+/* TÍTULO */
+#titulo {
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 2px 1px black;
+    font-size: 100px;
+    font-style: italic;
+    color: #33654b;
+}
+
+/* MENU */
+#menu {
+    padding: 0%;
+    padding-bottom: 0;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    margin: 2%;
+}
+
+a {
+    text-shadow: 2px 1px rgb(0, 0, 0);
+    font-size: 25px;
+    text-decoration: none;
+    color: #33654b;
+}
+
+a:hover {
+    color: #55ff00;
+}
+
+/* RODAPÉ */
+footer {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+h6 {
+    font-size: 10px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    color: #880181;
+}
