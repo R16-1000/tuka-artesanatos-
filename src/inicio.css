@@ -2,6 +2,10 @@
   background-image: url(../img/imgInicio/fundo.jpg);
   background-position: center;
   background-size: cover;
+  padding: 0%;
+}
+.area{
+  padding: 0%;
 }
 
 .container-slider {
@@ -18,7 +22,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
+  width: 65%;
   
 }
 
