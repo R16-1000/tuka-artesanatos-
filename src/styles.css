@@ -14,11 +14,12 @@ body {
 }
 /* TÍTULO */
 #titulo {
-    margin-top: 0;
-    margin-bottom: 0;
+    /* padding: 2%; */
+    margin-top: 1%;
+    margin-bottom: 1%;
     text-align: center;
     text-shadow: 2px 1px black;
-    font-size: 300%;
+    font-size: 500%;
     font-style: italic;
     color: #33654b;
 }
@@ -40,7 +41,7 @@ li {
 
 a {
     text-shadow: 2px 1px rgb(0, 0, 0);
-    font-size: 25px;
+    font-size: 150%;
     text-decoration: none;
     color: #33654b;
 }
@@ -56,7 +57,7 @@ footer {
 }
 
 h6 {
-    font-size: 10px;
+    font-size: 50%;
     font-style: italic;
     font-family: 'Times New Roman', Times, serif;
     margin: 0;
