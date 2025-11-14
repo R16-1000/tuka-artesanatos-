@@ -2,10 +2,7 @@
   background-image: url(../img/imgInicio/fundo.jpg);
   background-position: center;
   background-size: cover;
-  padding: 0%;
-}
-.area{
-  padding: 0%;
+  
 }
 
 .container-slider {
@@ -14,7 +11,7 @@
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  
+   padding: 0%;
 }
 
 .container-images {
@@ -22,8 +19,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 65%;
-  
+  width: 100%;
+  height: auto;
 }
 
 .slider {
@@ -33,6 +30,7 @@
   opacity: 0;
   border-radius: 12px;
   border: 3px solid rgb(2, 125, 2);
+  
 }
 
 .on {
