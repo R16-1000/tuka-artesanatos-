@@ -16,10 +16,24 @@ img{
     height: 200px;  
 }
 /* Efeito ao passar o mouse sobre a imagem */
-a:hover img {
-    border: 1px solid #55ff00;
-}
+
 
 .geral{
     text-align: center;
 }
+
+/* -----------FIM PRODUTOS----------- */
+
+/* -----------INFO PRODUTOS-----------  */
+
+#imagem-trocar1:hover {
+    scale: 1.2;
+    border: 1px solid #55ff00;
+    box-shadow: #55ff00 0px 0px 10px;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+
+
+
+
+/* -----------FIM INFO PRODUTOS-----------  */
