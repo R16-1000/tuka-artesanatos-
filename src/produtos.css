@@ -1,99 +1,116 @@
-/* -----------PRODUTOS----------- */
-.imgPro {
-    width: 200px;
-    height: 200px;
-    margin-bottom: 10%;
-    border: 2px solid #1f3e2e;
-    border-radius: 5%;
-}
-.produtos {
-    margin: 2%;   
-    display: inline-block;
-}
-img{
-    border-radius: 5%;
-    width: 200px;
-    height: 200px;  
-}
-/* Efeito ao passar o mouse sobre a imagem */
 
 
-.geral{
+.geral {
     text-align: center;
+    margin: 1%;  
 }
 
-/* -----------FIM PRODUTOS----------- */
+.imgPro {
+    text-align: center;
+    width: 90%;
+    margin-bottom: 5%; 
+}
 
-/* -----------INFO PRODUTOS-----------  */
+.produtos {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: 1%;
+}
+
+img {
+    text-align: center;
+    border-radius: 5%;
+    width: 90%;
+    border: 2px solid #1f3e2e;
+}
+
+/* INFO PRODUTOS */
 
 .imgPro:hover {
-    transition: all 0.3s ease;
-    scale: 1.1;
+    border-radius: 5%;
     border: 1px solid #55ff00;
-    box-shadow: #55ff00 0px 0px 10px;
-}
-
+    box-shadow: #55ff00 0px 0px 10px;  
+}   
 #imagem-trocar1:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
 #imagem-trocar2:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
 #imagem-trocar3:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
 #imagem-trocar4:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
 #imagem-trocar5:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar6:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar7:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar8:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar9:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar10:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar11:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar12:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar13:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar14:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar15:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar16:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar17:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar18:hover {
-    content: url('../img/imgInfoProdutos/m1.jpg');
-}
-#imagem-trocar19:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
 #imagem-trocar20:hover {
+    width: 20%;
     content: url('../img/imgInfoProdutos/m1.jpg');
 }
-
-
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    width: 20%;
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
 
 /* -----------FIM INFO PRODUTOS-----------  */
