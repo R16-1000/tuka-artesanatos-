@@ -26,15 +26,73 @@ img{
 
 /* -----------INFO PRODUTOS-----------  */
 
-
-#imagem-trocar1:hover {
+.imgPro:hover {
     transition: all 0.3s ease;
-    scale: 1.2;
+    scale: 1.1;
     border: 1px solid #55ff00;
     box-shadow: #55ff00 0px 0px 10px;
-    content: url('../img/imgInfoProdutos/m1.jpg');
 }
 
+#imagem-trocar1:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar2:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar3:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar4:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar5:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar6:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar7:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar8:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar9:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar10:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar11:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar12:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar13:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar14:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar15:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar16:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar17:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar18:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar19:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
+#imagem-trocar20:hover {
+    content: url('../img/imgInfoProdutos/m1.jpg');
+}
 
 
 
