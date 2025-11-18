@@ -1,34 +1,112 @@
-/* -----------CONTATO----------- */
-.contato {
-    background-image: url(../img/imgInicio/Captura\ de\ tela\ 2.jpg);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-  
+@media (max-width: 768px) and (min-width: 320px) {
+    .contato {
+        background-image: url(../img/imgInicio/Captura\ de\ tela\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+
+    }
+
+    #endereco {
+        margin: 1%;
+        margin-left: 1%;
+        width: 150%;
+    }
+
+    #imagem {
+        margin-top: 7%;
+        margin-bottom: 2%;
+        margin-left: 20%;
+        border: 2px solid #2600ff;
+        border-radius: 5%;
+        width: 70%;
+        display: inline-block;
+        display: flex;
+
+    }
+
+    .icon {
+        margin-top: 6%;
+    }
+
+    .icons {
+        width: 100%;
+
+    }
 }
 
-#endereco{
-margin: 1%;
-margin-left: 1%;
-width: 150%;
+@media (max-width: 1024px) and (min-width: 769px) {
+
+    .contato {
+        background-image: url(../img/imgInicio/Captura\ de\ tela\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+
+    }
+
+    #endereco {
+        margin: 1%;
+        margin-left: 1%;
+        width: 100%;
+    }
+
+    #imagem {
+        margin-top: 7%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        border: 2px solid #2600ff;
+        border-radius: 5%;
+        width: 50%;
+        display: inline-block;
+        display: flex;
+
+    }
+
+    .icon {
+        margin-top: 6%;
+    }
+
+    .icons {
+        width: 100%;
+
+    }
 }
 
-#imagem {
-    margin-top: 7%;
-    margin-bottom: 2%;
-    margin-left: 20%;
-    border: 2px solid #2600ff;
-    border-radius: 5%;
-    width: 70%;
-    display: inline-block;
-    display: flex;
-    
-}
 
-.icon{
-    margin-top: 6%;
-}
-.icons{
-    width: 100%;
-    
+@media (min-width: 1025px) {
+    .contato {
+        background-image: url(../img/imgInicio/Captura\ de\ tela\ 2.jpg);
+        background-position: center;
+        background-size: cover;
+        display: flex;
+
+    }
+
+    #endereco {
+        margin: 1%;
+        margin-left: 1%;
+        width: 70%;
+    }
+
+    #imagem {
+        margin-top: 7%;
+        margin-bottom: 2%;
+        margin-left: 10%;
+        border: 2px solid #2600ff;
+        border-radius: 5%;
+        width: 30%;
+        display: inline-block;
+        display: flex;
+
+    }
+
+    .icon {
+        margin-top: 6%;
+    }
+
+    .icons {
+        width: 100%;
+
+    }
 }
