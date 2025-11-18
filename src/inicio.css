@@ -1,5 +1,6 @@
 @media (max-width: 768px) and (min-width: 320px) {
   /* btn inicio */
+  
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
@@ -10,16 +11,16 @@
 @media (min-width: 1025px) {
 
 
-  #conteudo {
+  /* #conteudo {
     background-image: url(../img/imgInicio/fundo.jpg);
     background-position: center;
     background-size: cover;
 
-  }
+  } */
 
   
 /* btn inicio */
-  #btn-inicio {
+  /* #btn-inicio {
     text-decoration: none;
     color: white;
   }
@@ -31,5 +32,5 @@
     border-radius: 5px;
     cursor: pointer;
     font-size: 10px;
-  }
+  } */
 }
