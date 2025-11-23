@@ -1,0 +1,49 @@
+@media (max-width: 768px) and (min-width: 320px){
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+  
+}
+
+
+@media (min-width: 1025px){
+
+}
+
+
+
+/* LOCALIZAÇÃO */
+iframe{
+    border-radius: 2%;
+    width: 80%; 
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+#local {
+    width: 50%;
+    height: 50%;
+    display: flex; 
+} 
+#texto{
+    width: 50%;
+    height: 50%;
+    color: #33654b; 
+    text-shadow: 2px 1px black;
+}
+.local-texto{
+    margin-top: 5%;
+    margin-left: 25%;
+    text-align:center;
+    font-size: 22px;
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+#geralLocal{
+    background-image: url(../img/imgInicio/fundo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}

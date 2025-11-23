@@ -1,0 +1,1 @@
+alert("Script carregado com sucesso!");

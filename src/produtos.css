@@ -1,0 +1,116 @@
+@media (max-width: 768px) and (min-width: 320px) {
+
+    .geral {
+        text-align: center;
+        margin: 0;
+    }
+
+    .imgPro {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 2%;
+        /* border: 1px solid #00ff7b; */
+
+    }
+
+    .produtos {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        margin: 2%;
+        /* border: 1px solid #bbff00; */
+
+    }
+
+    img {
+        margin: 1%;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 5%;
+        width: 95%;
+        border: 2px solid #1f3e2e;
+
+    }
+
+    .imgPro:hover {
+        padding: 0;
+        border-radius: 5%;
+        border: 2px solid #55ff00;
+        box-shadow: #55ff00 0px 0px 10px;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px) {
+    .geral {
+        text-align: center;
+        margin: 1%;
+    }
+
+    .imgPro {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .produtos {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        margin: 1%;
+    }
+
+    img {
+        text-align: center;
+        border-radius: 5%;
+        width: 90%;
+        border: 2px solid #1f3e2e;
+    }
+
+    /* INFO PRODUTOS */
+
+    .imgPro:hover {
+        padding: 0;
+        border-radius: 5%;
+        border: 1px solid #55ff00;
+        box-shadow: #55ff00 0px 0px 10px;
+    }
+
+}
+
+
+@media (min-width: 1025px) {
+        .geral {
+        text-align: center;
+        margin: 1%;
+    }
+
+    .imgPro {
+        text-align: center;
+        width: 90%;
+        margin-bottom: 2%;
+    }
+
+    .produtos {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        margin: 1%;
+    }
+
+    img {
+        text-align: center;
+        border-radius: 5%;
+        width: 90%;
+        border: 2px solid #1f3e2e;
+    }
+
+    /* INFO PRODUTOS */
+
+    .imgPro:hover {
+        padding: 0;
+        border-radius: 5%;
+        border: 1px solid #55ff00;
+        box-shadow: #55ff00 0px 0px 10px;
+    }
+}
