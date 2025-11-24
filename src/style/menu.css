@@ -1,6 +1,6 @@
 /* título da barra de nav */
 a.navbar-brand{ 
-    font-size: 22px;
+    font-size: 20px;
     font-style: italic;
     font-weight: bold;
     color: #1f3e2e;
@@ -17,18 +17,20 @@ button.navbar-toggler{
 }
 /*título do título oculto */
 .offcanvas-title{
-    font-size: 22px;
+    font-size: 42px;
     font-style: italic;
     font-weight: bold;
     color: #1f3e2e;
 }
 /*drop menu oculto */
 a.dropdown-item{ 
+    font-size: 22px;
     color: #7d4c6f;
     font-weight: bold;
 }
 /*links do menu oculto */
 a.nav-link{
+    font-size: 30px;
     color: #1f3e2e;
     font-weight: bold;
 }
@@ -39,5 +41,5 @@ a.nav-link:hover{
 #textoInicio{
     color: #1f3e2e;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
