@@ -2,7 +2,7 @@
  
   /* TÍTULO */
 #titulo {
-    padding: 10%;
+    padding: 15%;
     margin-top: 10%;
     margin-bottom: 1%;
     text-align: center;
@@ -17,7 +17,7 @@
 }
   
  #d {
-    height: 250px;
+    height: 350px;
     background-color: transparent;
  }
 
