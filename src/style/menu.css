@@ -1,0 +1,50 @@
+/* Barra de nav */
+.container-fluid{
+    background-color: #7d4c6f;
+}
+/* título da barra de nav */
+a.navbar-brand{ 
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: #1f3e2e;
+}
+/* botão da barra de nav */
+button.navbar-toggler{
+    width: 100px;
+    height: auto;
+    background-color: #1f3e2e;
+}
+/*fundo do título oculto */
+.offcanvas-header{
+    background-color: #7d4c6f;
+}
+/*título do título oculto */
+.offcanvas-title{
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    color: #1f3e2e;
+}
+/*drop menu oculto */
+a.dropdown-item{ 
+    color: #7d4c6f;
+    font-weight: bold;
+}
+/*links do menu oculto */
+a.nav-link{
+    color: #1f3e2e;
+    font-weight: bold;
+}
+/*efeito ao passar mouse */
+a.nav-link:hover{
+    color: #7d4c6f;
+}
+#textoInicio{
+    color: #1f3e2e;
+    font-weight: bold;
+    font-size: 20px;
+}
+nav.fixed-top{
+    background-color: #55ff00;
+}
