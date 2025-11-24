@@ -22,7 +22,7 @@
 /* TÍTULO */
 #titulo {
     padding: 5%;
-    margin-top: 1%;
+    margin-top: 10%;
     margin-bottom: 1%;
     text-align: center;
     text-shadow: 2px 1px black;
@@ -34,13 +34,7 @@
     height: auto;
     font-family: 'Times New Roman', Times, serif;
 }
-/* MENU */
-#menu {
-    padding: 1%;
-}
-ul {
-    text-align: center;
-}
+
 /* RODAPÉ */
 footer {
     margin-left: 2%;

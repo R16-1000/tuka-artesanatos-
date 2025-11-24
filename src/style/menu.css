@@ -1,5 +1,49 @@
 @media (max-width: 768px) and (min-width: 320px){
-
+/* título da barra de nav */
+a.navbar-brand{ 
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3a9164;
+}
+/* botão da barra de nav */
+button.navbar-toggler{
+    width: 100px;
+    height: auto;
+    background-color: #3a9164;
+}
+/*fundo do título oculto */
+.offcanvas-header{
+    background-color: #7d4c6f;
+}
+/*título do título oculto */
+.offcanvas-title{
+    font-size: 42px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3a9164;
+}
+/*drop menu oculto */
+a.dropdown-item{ 
+    font-size: 22px;
+    color: #b95d9f;
+    font-weight: bold;
+}
+/*links do menu oculto */
+a.nav-link{
+    font-size: 30px;
+    color: #3a9164;
+    font-weight: bold;
+}
+/*efeito ao passar mouse */
+a.nav-link:hover{
+    color: #7d4c6f;
+}
+#textoInicio{
+    color: #3a9164;
+    font-weight: bold;
+    font-size: 30px;
+}
 }
 
 @media (max-width: 1024px) and (min-width: 769px){
@@ -12,48 +56,4 @@
 }
 
 
-/* título da barra de nav */
-a.navbar-brand{ 
-    font-size: 20px;
-    font-style: italic;
-    font-weight: bold;
-    color: #1f3e2e;
-}
-/* botão da barra de nav */
-button.navbar-toggler{
-    width: 100px;
-    height: auto;
-    background-color: #1f3e2e;
-}
-/*fundo do título oculto */
-.offcanvas-header{
-    background-color: #7d4c6f;
-}
-/*título do título oculto */
-.offcanvas-title{
-    font-size: 42px;
-    font-style: italic;
-    font-weight: bold;
-    color: #48bb7f;
-}
-/*drop menu oculto */
-a.dropdown-item{ 
-    font-size: 22px;
-    color: #b95d9f;
-    font-weight: bold;
-}
-/*links do menu oculto */
-a.nav-link{
-    font-size: 30px;
-    color: #48bb7f;
-    font-weight: bold;
-}
-/*efeito ao passar mouse */
-a.nav-link:hover{
-    color: #7d4c6f;
-}
-#textoInicio{
-    color: #48bb7f;
-    font-weight: bold;
-    font-size: 30px;
-}
+
