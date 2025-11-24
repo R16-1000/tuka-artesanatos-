@@ -19,21 +19,7 @@
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* TÍTULO */
-#titulo {
-    padding: 5%;
-    margin-top: 10%;
-    margin-bottom: 1%;
-    text-align: center;
-    text-shadow: 2px 1px black;
-    font-size: 300%;
-    font-style: italic;
-    font-weight: bold;
-    color: #33654b;
-    width: 100%;
-    height: auto;
-    font-family: 'Times New Roman', Times, serif;
-}
+
 
 /* RODAPÉ */
 footer {
