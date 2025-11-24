@@ -1,3 +1,17 @@
+@media (max-width: 768px) and (min-width: 320px){
+
+}
+
+@media (max-width: 1024px) and (min-width: 769px){
+  
+}
+
+
+@media (min-width: 1025px){
+
+}
+
+
 /* título da barra de nav */
 a.navbar-brand{ 
     font-size: 20px;
