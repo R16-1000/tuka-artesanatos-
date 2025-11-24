@@ -20,7 +20,7 @@ button.navbar-toggler{
     font-size: 42px;
     font-style: italic;
     font-weight: bold;
-    color: #1f3e2e;
+    color: #48bb7f;
 }
 /*drop menu oculto */
 a.dropdown-item{ 
@@ -31,7 +31,7 @@ a.dropdown-item{
 /*links do menu oculto */
 a.nav-link{
     font-size: 30px;
-    color: #1f3e2e;
+    color: #48bb7f;
     font-weight: bold;
 }
 /*efeito ao passar mouse */
@@ -39,7 +39,7 @@ a.nav-link:hover{
     color: #7d4c6f;
 }
 #textoInicio{
-    color: #1f3e2e;
+    color: #48bb7f;
     font-weight: bold;
     font-size: 30px;
 }
