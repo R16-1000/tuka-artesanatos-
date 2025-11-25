@@ -37,11 +37,13 @@
         text-align: center;   
     }
     .textoInicio h3 {
+        color: rgb(38, 80, 14);
         font-size: 20px;
         font-weight: bold;
         margin-bottom: 30px;
     }
     p {
+        color: rgb(38, 80, 14);
         margin: 5px;
     }
     
