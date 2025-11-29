@@ -4,24 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produtos Artesanais Tuka</title>
-    <link rel="stylesheet" href="../src/local.css">
-    <link rel="stylesheet" href="../src/styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="../src/style/style.css">
     <link rel="stylesheet" href="../src/style/menu.css">
-    <!--inicio bootstrap css-->
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <!--fim bootstrap css-->
+
 </head>
 
-<body>
-    <!-- TITULO -->
-    <fieldset class="borda">
-        <header>
-            <h2 id="titulo">Tuka Artesanatos</h2>
-        </header>
-    </fieldset>
-    <!-- MENU -->
+<body id="fundo">
     <nav class="navbar navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">TUKA ARTESANATOS</a>
@@ -52,6 +44,7 @@
                                 aria-expanded="false">
                                 Produtos
                             </a>
+
                             <ul class="dropdown-menu dropdown-menu-dark">
                                 <li><a class="dropdown-item" href="#">Bolsas</a>
                                 </li>
@@ -62,57 +55,69 @@
                                     <hr class="dropdown-divider">
                                 </li>
                                 <li><a class="dropdown-item" href="#">Frete</a></li>
-                                <li><a class="dropdown-item" href="#">Forma de pagamento</a></li>
+                                <li><a class="dropdown-item" href="#">Forma de
+                                        pagamento</a></li>
                             </ul>
                         </li>
+
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
-    <!-- CONTEÚDO -->
-    <fieldset id="content" class="borda">
 
-
-        <div id="geralLocal">
-
-            <div id="texto">
-                <div class="local-texto">
-                    <p>Rua: do Indio, Nº 38A</p>
-                </div>
-                <div class="local-texto">
-                    <p>Bairro: Jardim nova conquista</p>
-                </div>
-                <div class="local-texto">
-                    <p>São paulo - SP</p>
-                </div>
-                <div class="local-texto">
-                    <p>Cep: 08346-410</p>
-                </div>
+    <section>
+        <fieldset class="borda">
+            <legend id="legendaLocalizacao">Localização</legend>
+            <br>
+            <h4 id="textoLocalizacao">Estamos localizados na Rua: do Indio, nº 38, Bairro: Jardim Nova conquista, <br> São paulo - SP</h4>
+            <br>
+            <div class="mapouter">
+                <div class="gmap_canvas">
+                    <iframe width="600" height="500" id="gmap_canvas"
+                        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3655.7062417717343!2d-46.45045800000004!3d-23.614866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjPCsDM2JzUzLjUiUyA0NsKwMjcnMDEuNyJX!5e0!3m2!1spt-BR!2sbr!4v1764115342582!5m2!1spt-BR!2sbr"
+                        frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                        href="https://www.embedgooglemap.net/blog/divi-discount-code/">divi discount code</a></div>
+                <style>
+                    .mapouter {
+                        position: relative;
+                        text-align: right;
+                        height: 500px;
+                        width: 600px;
+                    }
+                    .gmap_canvas {
+                        overflow: hidden;
+                        background: none !important;
+                        height: 500px;
+                        width: 450px;
+                        border: 1px solid #880181;
+                        border-radius: 10px;
+                    }
+                    #legendaLocalizacao{
+                        text-align: center;
+                        font-size: 25px;
+                        color: white;
+                        text-shadow: black 1px 1px 2px;
+                    }
+                    h4#textoLocalizacao{
+                        text-align: center;
+                        color: white;
+                        text-shadow: black 1px 1px 2px;
+                    }
+                </style>
             </div>
 
-            <div id="local">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d913.9270276843482!2d-46.450471!3d-23.614799!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce693513e07471%3A0xbd025537ae285928!2sCroche%20da%20guita!5e0!3m2!1spt-BR!2sbr!4v1762210637320!5m2!1spt-BR!2sbr"
-                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
 
-        </div>
+        </fieldset>
+    </section>
 
-
-    </fieldset>
-
-    <!-- RODAPÉ -->
     <footer>
-        <h6>DEV_R16 - email: r16y3x@gmail.com</h6>
+        <h6 id="rodape">© 2025 Tuka Artesanatos. DEV-R16.</h6>
     </footer>
 
-    <!-- inicio bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
-    <!-- fim bootstrap js -->
 </body>
 
 </html>
