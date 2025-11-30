@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../src/style/style.css">
     <link rel="stylesheet" href="../src/style/menu.css">
+    <!-- <link rel="stylesheet" href="../src/style/local.css"> -->
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
@@ -33,7 +34,8 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" id="textoInicio" href="../index.html">Inicio</a>
+                            <a class="nav-link active" aria-current="page" id="textoInicio"
+                                href="../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="./contato.html">Contato</a>
@@ -70,68 +72,21 @@
 
     <section>
         <fieldset class="borda">
-            <legend class="legenda">Informações de pagamento</legend>
-            <br>
-            <div class="nfoPagamento">
-
-                <div class="info1">
-                    <h4 id="textoInfoPagamento">Formas de pagamento aceitas:</h4>
-                    <ul id="listaInfoPagamento">
-                        <li><s>Cartão de crédito</s></li>
-                        <li><s>Cartão de débito</s></li>
-                        <li>Boleto bancário</li>
-                        <li>Transferência bancária</li>
-                        <li>Pix</li>
-                        <li>Via QR code</li>
-                    </ul>
-                </div>
-                <legend class="legenda">pagamento por QR code</legend>
-                
-                <div class="imagePagamento">
-                    <img src="../img/imgInfoPag/pixQrCode.png" alt="Formas de pagamento" width="300px" height="200px">
-                </div>
-
-                <style>
-                    .nfoPagamento {
-                        display: flex;
-                        flex-direction: column;
-                        align-items: center;
-                        justify-content: center;
-                        gap: 20px;
-                    }
-
-                    .info1 {
-                        background-color: #4aa142;
-                        padding: 20px;
-                        border-radius: 10px;
-                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-                        width: 300px;
-                    }
-
-                    #listaInfoPagamento {
-                        list-style-type: disc;
-                        padding-left: 20px;
-                    }
-
-                    .imagePagamento img {
-                        margin-top: 1px;
-                        margin-left: 20px;
-                        width: 450px;
-                        height: 400px;
-                    }
-                    .legenda{
-                        text-align: center;
-                        font-size: 25px;
-                        font-style: italic;
-                        font-weight: bold;
-                        color: white;
-                        text-shadow: black 1px 1px 2px;
-                    }
-                </style>
-            </div>
-
+            
+            <legend id="legendaTapetes">Tapetes</legend>
+           
 
         </fieldset>
+        <style>
+            #legendaTapetes {
+                text-align: center;
+                font-size: 25px;
+                font-style: italic;
+                font-weight: bold;
+                color: white;
+                text-shadow: black 1px 1px 2px;
+            }
+        </style>
     </section>
 
     <footer>
