@@ -1,28 +1,25 @@
-    /* .mapouter {
-        position: relative;
-        text-align: right;
-        height: 500px;
-        width: 600px;
-    }
+ .mapa_ext {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
 
-    .gmap_canvas {
-        overflow: hidden;
-        background: none !important;
-        height: 500px;
-        width: 450px;
-        border: 1px solid #880181;
-        border-radius: 10px;
-    }
+ .mapa_img iframe {
+     border: 1px solid #880181;
+     border-radius: 10px;
+     width: 450px;
+     height: 500px;
+ }
 
-    #legendaLocalizacao {
-        text-align: center;
-        font-size: 25px;
-        color: white;
-        text-shadow: black 1px 1px 2px;
-    }
+ #legendaLocalizacao {
+     text-align: center;
+     font-size: 25px;
+     color: white;
+     text-shadow: black 1px 1px 2px;
+ }
 
-    h4#textoLocalizacao {
-        text-align: center;
-        color: white;
-        text-shadow: black 1px 1px 2px;
-    } */
+ h4#textoLocalizacao {
+     text-align: center;
+     color: white;
+     text-shadow: black 1px 1px 2px;
+ }
