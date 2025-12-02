@@ -62,6 +62,18 @@
         /* Opcional: Muda o ícone do cursor */
     }
 
+    .link-desativado {
+        pointer-events: none;
+        /* Impede cliques */
+        cursor: default;
+        /* Remove o cursor de mãozinha */
+        text-decoration: none;
+        /* Opcional: Remove o sublinhado de link */
+        color: gray;
+        /* Opcional: Muda a cor */
+    }
+
+
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
