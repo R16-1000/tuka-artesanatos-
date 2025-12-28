@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../src/style/menu.css">
+    <link rel="stylesheet" href="../../src/style/style.css">
+    <!-- <link rel="stylesheet" href="../src/style/local.css"> -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body id="fundo">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a id="tituloMenu" class="navbar-brand" href="#">TUKA ARTESANATOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" id="textoInicio"
+                                href="../../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../pages/contato.html">Contato</a>
+                            <a class="nav-link" href="../../pages/local.html">Localização</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Produtos
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="../../pages/bolsas.html">Bolsas</a></li>
+                                <li><a class="dropdown-item" href="../../pages/tapetes.html">Tapetes</a></li>
+                                <li><a class="dropdown-item" href="../../pages/carteiras.html">Carteiras</a></li>
+                                <li><a class="dropdown-item" href="../../pages/chaveiros.html">Chaveiros</a></li>
+                                <li><a class="dropdown-item" href="../../pages/pulseiras.html">Pulseiras</a></li>
+                                <li class="item-desativado"><a class="link-desativado" class="dropdown-item"
+                                        href="../../pages/portaretrato.html">Porta retrato</a></li>
+                                <li class="item-desativado"><a class="link-desativado" class="dropdown-item"
+                                        href="../../pages/luminarias.html">Luminária</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="../../pages/frete.html">Frete</a></li>
+                                <li><a class="dropdown-item" href="../../pages/infopag.html">Forma de pagamento</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+
+        <fieldset class="borda">
+
+            <legend id="legendaBolsa01">Informações do produto</legend><br>
+
+
+            <!-- imagem -->
+            <img id="minha-imagem" class="img01" src="../img-tapetes/tapete02.jpg" alt="Imagem 1" width="500px"
+                height="500px" onclick="trocarImagem()">
+            <br>
+
+            <!-- -->
+            <!-- imagem -->
+
+            <!-- cores -->
+
+            <!-- 
+             <p>Opções de cores</p>
+            <span class="border-bottom"><img src="../cores/cor-01.jpg" class="rounded-3" alt="cor1" width="40px"
+                    height="40px"></span>
+            <br><br>
+            <span class="border-bottom"><img src="../cores/cor-02.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-03.jpg" class="rounded-3" alt="cor3" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-04.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-05.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-06.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-07.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-08.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-09.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span><br><br>
+            <span class="border-bottom"><img src="../cores/cor-10.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-11.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-12.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-13.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-14.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+            <span class="border-bottom"><img src="../cores/cor-15.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span>
+           -->
+            <!-- cores -->
+
+            <p>tamanho -> 15cm</p>
+
+            <p>preço -> R$ 4,00</p>
+
+
+            <p>descrição</p>
+
+            <p>Feita com linha de crochê, com fios para fechamento. Ideal para uso diário, combina
+                estilo e praticidade.</p>
+
+            <p>estoque disponivel = 1 </p>
+            <p>Aceitamos encomendas. </p>
+
+        </fieldset>
+
+    </section>
+
+
+    <style>
+        img.img01 {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+            border: 1px solid #880181;
+            width: 400px;
+            height: 400px;
+        }
+
+        #legendaBolsa01 {
+            text-align: center;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            color: white;
+            text-shadow: black 1px 1px 2px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            text-shadow: black 1px 1px 2px;
+        }
+    </style>
+
+    <footer>
+        <h6 id="rodape">© 2025 Tuka Artesanatos. DEV-R16.</h6>
+    </footer>
+
+    <script>
+        let indiceAtual = 0;
+        let minhasImagens = [
+            '../img-tapetes/tapete02-02.jpg',
+            '../img-tapetes/tapete02.jpg'
+        ];
+
+        function trocarImagem() {
+            if (indiceAtual === minhasImagens.length) {
+                indiceAtual = 0;
+            }
+            document.getElementById("minha-imagem").src = minhasImagens[indiceAtual];
+            indiceAtual++;
+        }
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
