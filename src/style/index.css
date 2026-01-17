@@ -1,40 +1,17 @@
 @media (max-width: 768px) and (min-width: 320px) {
 
     #carouselExampleAutoplaying {
-        margin-top: 60px;
-        border: 1px solid #880181;
-        border-radius: 10px;
-        text-align: center;
+        margin-bottom: 5px;
+
     }
 
     img {
         border-radius: 10px;
     }
 
-    #titulo {
-        font-size: 40px;
-    }
-
-    header {
-        margin-top: 50px;
-    }
-
-    h2 {
-        text-align: center;
-        text-shadow: 2px 1px rgb(25, 206, 40);
-        font-style: italic;
-        font-weight: bold;
-        color: #33654b;
-        font-family: 'Times New Roman', Times, serif;
-        border: 2px solid rgb(34, 77, 36);
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
-    }
-
     .textoInicio {
-        margin-top: 70px;
-        margin-bottom: 70px;
+        margin-top: 50px;
+        margin-bottom: 50px;
         text-align: center;
     }
 
@@ -52,79 +29,42 @@
         font-size: 18px;
         margin: 5px;
     }
-
-
-
-
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
+
     #carouselExampleAutoplaying {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border: 2px solid black;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 1px solid #880181;
         border-radius: 10px;
         text-align: center;
     }
 
     img {
+
+        height: 500px;
         border-radius: 10px;
     }
-
-    h1 {
-
-        border: 2px solid black;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .materia-prima {
-        margin-top: 100px;
-        width: 670px;
-        height: 200px;
-        text-align: center;
-    }
-
-    #cor {
-        color: rgb(38, 80, 14);
-    }
-
 }
 
 @media (min-width: 1025px) {
+
     #carouselExampleAutoplaying {
-        margin-top: 10px;
-        margin-bottom: 10px;
-        border: 2px solid black;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border: 1px solid #880181;
         border-radius: 10px;
         text-align: center;
-        width: 100%;
-
     }
 
     img {
+
+        height: 500px;
         border-radius: 10px;
-        height: 350px;
     }
-
-    h1 {
-
-        border: 2px solid black;
-        border-radius: 10px;
-        margin: 10px;
-        padding: 10px;
-    }
-
-    .materia-prima {
-        margin-top: 100px;
-        width: 1550px;
-        height: 200px;
-        text-align: center;
-    }
-
-    #cor {
-        color: rgb(38, 80, 14);
-    }
-
 }

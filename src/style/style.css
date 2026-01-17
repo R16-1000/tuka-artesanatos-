@@ -1,166 +1,138 @@
 @media (max-width: 768px) and (min-width: 320px) {
 
     /* -------------INICIO background ------------------ */
+
     body {
         margin: 0;
         padding: 0;
-        box-sizing: 0;
+        box-sizing: border-box;
     }
 
     #fundo {
         background-color: #99d4c7;
     }
 
+    /* -------------FIM background ------------------ */
+
+    /* -------------INICIO borda fundo ------------------ */
+
     fieldset.borda {
-        margin-top: 75px;
+        margin-top: 60px;
         background-image: url('../../img/fundo/fundo.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
 
-    .borda {
+    /* -------------FIM borda fundo ------------------ */
 
+    /* -------------INICIO borda------------------ */
+
+    fieldset.borda {
+        /* border: 2px solid #000; */
         border: 4px solid #1f3e2e;
         border-style: dashed;
         border-radius: 10px;
-        margin: 5px;
-        padding: 10px;
+        padding-bottom: 20px;  
     }
 
-    /* --------------FIM background -------------------- */
-    /* ----------------- footer -------------------------*/
-    footer {
+    /* -------------FIM borda  ------------------ */
+
+     footer {
         margin-left: 2%;
         margin-top: 1%;
     }
 
-    h6 {
-        font-size: 2px;
-        font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
-        margin: 0;
-        padding: 0;
-        color: #880181;
-    }
-    /* --------------FIM footer -------------------------*/
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
+    
+    /* -------------INICIO background ------------------ */
 
-    /* -------------INICIO FUNDO ------------------ */
     body {
         margin: 0;
         padding: 0;
-        box-sizing: 0;
+        box-sizing: border-box;
     }
 
     #fundo {
-        background-color: rgb(0, 255, 242);
+        background-color: #99d4c7;
     }
+
+    /* -------------FIM background ------------------ */
+
+    /* -------------INICIO borda fundo ------------------ */
 
     fieldset.borda {
-        margin-top: 15px;
-        background-color: rgba(186, 76, 230, 0.842);
+        margin-top: 60px;
+        background-image: url('../../img/fundo/fundo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .borda {
-        border: 5px solid #33654b;
-        box-shadow: #000000 5px 5px 10px;
+    /* -------------FIM borda fundo ------------------ */
+
+    /* -------------INICIO borda------------------ */
+
+    fieldset.borda {
+        /* border: 2px solid #000; */
+        border: 4px solid #1f3e2e;
         border-style: dashed;
-        border-radius: 15px;
-        margin: 10px;
-        padding: 10px;
+        border-radius: 10px;
+        padding-bottom: 20px;  
     }
 
-    /* --------------FIM FUNDO -------------------- */
+    /* -------------FIM borda  ------------------ */
 
-    /* -------------INICIO TÍTULO ----------------- */
-
-    .container-titulo {
-        text-align: center;
+     footer {
+        margin-left: 2%;
+        margin-top: 1%;
     }
-
-    .texto-titulo h1 {
-        font-size: 50px;
-        font-family: 'Arial Black', sans-serif;
-        color: rgb(38, 80, 14);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    /* --------------FIM TÍTULO -------------------- */
-
-    /* -------------INICIO MENU -------------------- */
-    .container-menu {
-
-        text-align: center;
-    }
-
-    button {
-        text-align: center;
-        width: 200px;
-        height: 50px;
-    }
-
-    /* --------------FIM MENU --------------------- */
-
 }
 
 @media (min-width: 1025px) {
+        
+    /* -------------INICIO background ------------------ */
 
-    /* -------------INICIO FUNDO ------------------ */
     body {
         margin: 0;
         padding: 0;
-        box-sizing: 0;
+        box-sizing: border-box;
     }
 
     #fundo {
-        background-color: rgb(0, 255, 242);
+        background-color: #99d4c7;
     }
+
+    /* -------------FIM background ------------------ */
+
+    /* -------------INICIO borda fundo ------------------ */
 
     fieldset.borda {
-        margin-top: 15px;
-        background-color: rgba(186, 76, 230, 0.842);
+        margin-top: 60px;
+        background-image: url('../../img/fundo/fundo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
-    .borda {
-        border: 5px solid #33654b;
-        box-shadow: #000000 5px 5px 10px;
+    /* -------------FIM borda fundo ------------------ */
+
+    /* -------------INICIO borda------------------ */
+
+    fieldset.borda {
+        /* border: 2px solid #000; */
+        border: 4px solid #1f3e2e;
         border-style: dashed;
-        border-radius: 15px;
-        margin: 10px;
-        padding: 10px;
+        border-radius: 10px;
+        padding-bottom: 20px;  
     }
 
-    /* --------------FIM FUNDO -------------------- */
+    /* -------------FIM borda  ------------------ */
 
-    /* -------------INICIO TÍTULO ----------------- */
-
-    .container-titulo {
-        text-align: center;
+     footer {
+        margin-left: 2%;
+        margin-top: 1%;
     }
-
-    .texto-titulo h1 {
-        font-size: 50px;
-        font-family: 'Arial Black', sans-serif;
-        color: rgb(38, 80, 14);
-        text-shadow: 2px 2px 4px #000000;
-    }
-
-    /* --------------FIM TÍTULO -------------------- */
-
-    /* -------------INICIO MENU -------------------- */
-    .container-menu {
-
-        text-align: center;
-    }
-
-    button {
-        text-align: center;
-        width: 200px;
-        height: 50px;
-    }
-
-    /* --------------FIM MENU --------------------- */
 }
