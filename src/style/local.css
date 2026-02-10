@@ -28,7 +28,8 @@
     }
 
     .vazio {
-        height: 150px;
+        height: 200px;
+        /* border: solid black 2px; */
     }
 }
 
