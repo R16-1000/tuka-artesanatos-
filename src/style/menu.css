@@ -15,6 +15,46 @@
         background-color: #3a9164;
     }
 
+    /*fundo do título oculto */
+    .offcanvas-header {
+        background-color: #7d4c6f;
+    }
+
+     /*título do título oculto */
+    .offcanvas-title {
+        font-size: 42px;
+        font-style: italic;
+        font-weight: bold;
+        color: #3a9164;
+    }
+
+     /*drop menu oculto */
+    a.dropdown-item {
+        font-size: 22px;
+        color: #b95d9f;
+        font-weight: bold;
+    }
+
+    /*links do menu oculto */
+    a.nav-link {
+        font-size: 30px;
+        color: #3a9164;
+        font-weight: bold;
+    }
+
+     /*efeito ao passar mouse */
+    a.nav-link:hover {
+        color: #7d4c6f;
+    }
+
+   #tituloMenu {
+        pointer-events: none;
+        cursor: default;
+        text-decoration: none;
+        font-style: italic;
+        font-weight: bold;
+    }
+
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {}
