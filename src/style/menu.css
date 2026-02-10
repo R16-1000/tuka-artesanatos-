@@ -17,12 +17,13 @@
 
     /*fundo do título oculto */
     .offcanvas-header {
+        height: 60px;
         background-color: #7d4c6f;
     }
 
      /*título do título oculto */
     .offcanvas-title {
-        font-size: 42px;
+        font-size: 22px;
         font-style: italic;
         font-weight: bold;
         color: #3a9164;
@@ -31,6 +32,7 @@
      /*drop menu oculto */
     a.dropdown-item {
         font-size: 22px;
+        font-style: italic;
         color: #b95d9f;
         font-weight: bold;
     }
@@ -40,6 +42,7 @@
         font-size: 30px;
         color: #3a9164;
         font-weight: bold;
+        font-style: italic;
     }
 
      /*efeito ao passar mouse */
