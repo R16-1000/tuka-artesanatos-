@@ -32,17 +32,17 @@
     }
 
     .vazio{
-        height: 155px;
+        height: 150px;
     }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
 
     #carouselExampleAutoplaying {
-        margin-top: 5px;
-        margin-bottom: 5px;
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         border: 1px solid #880181;
         border-radius: 10px;
         text-align: center;
@@ -59,9 +59,9 @@
 
     #carouselExampleAutoplaying {
         margin-top: 20px;
-        margin-bottom: 20px;
-        margin-left: 25px;
-        margin-right: 25px;
+        margin-bottom: 25px;
+        margin-left: 20px;
+        margin-right: 20px;
         border: 1px solid #880181;
         border-radius: 10px;
         text-align: center;
