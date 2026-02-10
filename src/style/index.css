@@ -30,6 +30,10 @@
         font-size: 18px;
         margin: 5px;
     }
+
+    .vazio{
+        height: 50px;
+    }
 }
 
 @media (max-width: 1024px) and (min-width: 769px) {
