@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - Tuka Artesanatos</title>
+    <link rel="stylesheet" href="../src/style/style.css">
+    <link rel="stylesheet" href="../src/style/menu.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        #legendaFeedback {
+            text-align: center;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            color: white;
+            text-shadow: black 1px 1px 2px;
+        }
+
+        .formularioFeedback {
+            background-color: #4aa142;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .formularioFeedback .form-label {
+            font-weight: 600;
+            color: #1f3e2e;
+            margin-top: 15px;
+            margin-bottom: 8px;
+        }
+
+        .formularioFeedback .form-control {
+            border: 2px solid #99d4c7;
+            border-radius: 8px;
+            padding: 10px 15px;
+            font-size: 1rem;
+        }
+
+        .formularioFeedback .form-control:focus {
+            border-color: #b95d9f;
+            box-shadow: 0 0 0 0.2rem rgba(136, 1, 129, 0.25);
+        }
+
+        .formularioFeedback textarea.form-control {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .estrelas {
+            display: flex;
+            gap: 10px;
+            font-size: 2rem;
+            margin-top: 10px;
+        }
+
+        .estrela {
+            cursor: pointer;
+            color: #ccc;
+            transition: color 0.2s;
+        }
+
+        .estrela:hover,
+        .estrela.ativa {
+            color: #ffc107;
+        }
+
+        .btnEnviar {
+            background-color: #880181;
+            color: white;
+            font-weight: 600;
+            padding: 12px 40px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-top: 20px;
+            transition: background-color 0.3s;
+        }
+
+        .btnEnviar:hover {
+            background-color: #6a015f;
+            color: white;
+        }
+
+        .avisoObrigatorio {
+            font-size: 0.9rem;
+            color: #000000;
+            margin-top: 20px;
+        }
+
+        .mensagemSucesso {
+            display: none;
+            background-color: #d4edda;
+            color: #155724;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #c3e6cb;
+        }
+
+        .mensagemErro {
+            display: none;
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #f5c6cb;
+        }
+    </style>
+
+</head>
+
+<body id="fundo">
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a id="tituloMenu" class="navbar-brand" href="#">TUKA ARTESANATOS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">MENU
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" id="textoInicio"
+                                href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contato.html">Contato</a>
+                            <a class="nav-link active" href="./feedback.html">Feedback</a>
+                            <a class="nav-link" href="./local.html">Localização</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Produtos
+                            </a>
+
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                                <li><a class="dropdown-item" href="./bolsas.html">Bolsas</a></li>
+                                <li><a class="dropdown-item" href="./tapetes.html">Tapetes</a></li>
+                                <li><a class="dropdown-item" href="./carteiras.html">Carteiras</a></li>
+                                <li><a class="dropdown-item" href="./chaveiros.html">Chaveiros</a></li>
+                                <li><a class="dropdown-item" href="./pulseiras.html">Pulseiras</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="./frete.html">Frete</a></li>
+                                <li><a class="dropdown-item" href="./infopag.html">Forma de
+                                        pagamento</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section>
+        <fieldset class="borda">
+            <legend id="legendaFeedback">Feedback do Comprador</legend>
+            <br>
+
+            <div class="container">
+                <div class="formularioFeedback">
+                    <p style="text-align: center; color: #1f3e2e; margin-bottom: 25px;">
+                        Sua opinião é muito importante para nós! Compartilhe sua experiência com os produtos da Tuka Artesanatos.
+                    </p>
+
+                    <div class="mensagemSucesso" id="mensagemSucesso">
+                        ✓ Obrigado pelo seu feedback! Entraremos em contato em breve.
+                    </div>
+
+                    <div class="mensagemErro" id="mensagemErro">
+                        ✗ Por favor, preencha todos os campos obrigatórios.
+                    </div>
+
+                    <form id="formularioFeedback" action="https://formsubmit.co/r16y3x@gmail.com" method="POST">
+                        <!-- Nome -->
+                        <div>
+                            <label for="nome" class="form-label">Nome *</label>
+                            <input type="text" class="form-control" id="nome" name="Nome" required>
+                        </div>
+
+                        <!-- Email -->
+                        <div>
+                            <label for="email" class="form-label">Email *</label>
+                            <input type="email" class="form-control" id="email" name="Email" required>
+                        </div>
+
+                        <!-- Telefone (opcional) -->
+                        <div>
+                            <label for="telefone" class="form-label">Telefone</label>
+                            <input type="tel" class="form-control" id="telefone" name="Telefone" placeholder="(xx) xxxxx-xxxx">
+                        </div>
+
+                        <!-- Qual produto? -->
+                        <div>
+                            <label for="produto" class="form-label">Qual produto comprou? *</label>
+                            <select class="form-control" id="produto" name="Produto" required>
+                                <option value="">-- Selecione --</option>
+                                <option value="bolsa">Bolsa</option>
+                                <option value="carteira">Carteira</option>
+                                <option value="chaveiro">Chaveiro</option>
+                                <option value="pulseira">Pulseira</option>
+                                <option value="tapete">Tapete</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+
+                        <!-- Avaliação por estrelas -->
+                        <div>
+                            <label class="form-label">Como foi sua experiência? *</label>
+                            <div class="estrelas" id="avaliacao">
+                                <span class="estrela" data-valor="1">★</span>
+                                <span class="estrela" data-valor="2">★</span>
+                                <span class="estrela" data-valor="3">★</span>
+                                <span class="estrela" data-valor="4">★</span>
+                                <span class="estrela" data-valor="5">★</span>
+                            </div>
+                            <input type="hidden" id="avaliacaoHidden" name="Avaliacao (Estrelas)" value="0" required>
+                        </div>
+
+                        <!-- Comentário -->
+                        <div>
+                            <label for="comentario" class="form-label">Deixe seu comentário *</label>
+                            <textarea class="form-control" id="comentario" name="Comentario" placeholder="Conte-nos sobre sua experiência com nossos produtos..." required></textarea>
+                        </div>
+
+                        <!-- Botão Enviar -->
+                        <button type="submit" class="btnEnviar">Enviar Feedback</button>
+
+                        <p class="avisoObrigatorio">* Campos obrigatórios</p>
+                    </form>
+                </div>
+            </div>
+
+        </fieldset>
+    </section>
+
+    <footer>
+        <h6 id="rodape">r16y3x@gmail.com / DEV-R16</h6>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+
+    <script>
+        // Sistema de avaliação por estrelas
+        const estrelas = document.querySelectorAll('.estrela');
+        const avaliacaoHidden = document.getElementById('avaliacaoHidden');
+
+        estrelas.forEach(estrela => {
+            estrela.addEventListener('click', function () {
+                const valor = this.getAttribute('data-valor');
+                avaliacaoHidden.value = valor;
+
+                estrelas.forEach(e => {
+                    if (e.getAttribute('data-valor') <= valor) {
+                        e.classList.add('ativa');
+                    } else {
+                        e.classList.remove('ativa');
+                    }
+                });
+            });
+
+            estrela.addEventListener('mouseover', function () {
+                const valor = this.getAttribute('data-valor');
+                estrelas.forEach(e => {
+                    if (e.getAttribute('data-valor') <= valor) {
+                        e.style.color = '#ffc107';
+                    } else {
+                        e.style.color = '#ccc';
+                    }
+                });
+            });
+        });
+
+        document.getElementById('avaliacao').addEventListener('mouseleave', function () {
+            estrelas.forEach(e => {
+                if (e.classList.contains('ativa')) {
+                    e.style.color = '#ffc107';
+                } else {
+                    e.style.color = '#ccc';
+                }
+            });
+        });
+
+        // Envio do formulário
+        document.getElementById('formularioFeedback').addEventListener('submit', function (e) {
+            const mensagemErro = document.getElementById('mensagemErro');
+            const avaliacao = document.getElementById('avaliacaoHidden').value;
+
+            // Validação de estrelas
+            if (avaliacao === '0') {
+                e.preventDefault();
+                mensagemErro.style.display = 'block';
+                mensagemErro.scrollIntoView({ behavior: 'smooth' });
+                return false;
+            }
+
+            // Se passou na validação, o formulário será enviado normalmente para o FormSubmit
+            mensagemErro.style.display = 'none';
+        });
+    </script>
+</body>
+
+</html>
