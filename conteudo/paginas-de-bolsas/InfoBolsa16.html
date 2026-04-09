@@ -34,35 +34,33 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" id="textoInicio"
-                                href="/index.html">Inicio</a>
+                            <a class="nav-link" aria-current="page" id="textoInicio"
+                                href="../../index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/pages/contato.html">Contato</a>
-                            <a class="nav-link" href="/pages/local.html">Localização</a>
+                            <a class="nav-link" href="../../pages/contato.html">Contato</a>
+                            <a class="nav-link" href="../../pages/local.html">Localização</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
                                 aria-expanded="false">
                                 Produtos
                             </a>
 
                             <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="/pages/bolsas.html">Bolsas</a></li>
-                                <li><a class="dropdown-item" href="./tapetes.html">Tapetes</a></li>
-                                <li><a class="dropdown-item" href="./carteiras.html">Carteiras</a></li>
-                                <li><a class="dropdown-item" href="./chaveiros.html">Chaveiros</a></li>
-                                <li><a class="dropdown-item" href="./pulseiras.html">Pulseiras</a></li>
-                                <li class="item-desativado"><a class="link-desativado" class="dropdown-item"
-                                        href="./portaretrato.html">Porta retrato</a></li>
-                                <li class="item-desativado"><a class="link-desativado" class="dropdown-item"
-                                        href="./luminarias.html">Luminária</a></li>
+                                <li><a class="dropdown-item active" href="../../pages/bolsas.html">Bolsas</a></li>
+                                <li><a class="dropdown-item" href="../../pages/tapetes.html">Tapetes</a></li>
+                                <li><a class="dropdown-item" href="../../pages/carteiras.html">Carteiras</a></li>
+                                <li><a class="dropdown-item" href="../../pages/chaveiros.html">Chaveiros</a></li>
+                                <li><a class="dropdown-item" href="../../pages/pulseiras.html">Pulseiras</a></li>
+                                <!-- <li><a class="dropdown-item" href="../../pages/portaretrato.html">Porta retrato</a></li>
+                                <li><a class="dropdown-item" href="../../pages/luminarias.html">Luminária</a></li>
+                                <li><a class="dropdown-item" href="../../pages/brincos.html">Brincos</a></li> -->
                                 <li>
                                     <hr class="dropdown-divider">
                                 </li>
-                                <li><a class="dropdown-item" href="../pages/frete.html">Frete</a></li>
-                                <li><a class="dropdown-item" href="../pages/infopag.html">Forma de
-                                        pagamento</a></li>
+                                <li><a class="dropdown-item" href="../../pages/frete.html">Frete</a></li>
+                                <li><a class="dropdown-item" href="../../pages/infopag.html">Forma de pagamento</a></li>
                             </ul>
                         </li>
 
@@ -81,17 +79,16 @@
 
             <!-- imagem -->
             <img id="minha-imagem" class="img01" src="../img-bolsas/bolsa16.jpg" alt="Imagem 1" width="500px"
-                height="500px" ><!-- onclick="trocarImagem()" -->
-                
+                height="500px" onclick="trocarImagem()">
             <!-- imagem -->
 
             <!-- cores -->
-            <!-- <p>Opções de cores</p>
+            <p>Opções de cores</p>
             <span class="border-bottom"><img src="../cores/cor-01.jpg" class="rounded-3" alt="cor1" width="40px"
                     height="40px"></span>
-            <span class="border-bottom"><img src="../cores/cor-02.jpg" class="rounded-3" alt="cor2" width="40px"
-                    height="40px"></span>
-            <span class="border-bottom"><img src="../cores/cor-03.jpg" class="rounded-3" alt="cor3" width="40px"
+            <!-- <span class="border-bottom"><img src="../cores/cor-02.jpg" class="rounded-3" alt="cor2" width="40px"
+                    height="40px"></span> -->
+            <!-- <span class="border-bottom"><img src="../cores/cor-03.jpg" class="rounded-3" alt="cor3" width="40px"
                     height="40px"></span>
             <span class="border-bottom"><img src="../cores/cor-04.jpg" class="rounded-3" alt="cor2" width="40px"
                     height="40px"></span>
@@ -117,7 +114,7 @@
                     height="40px"></span>
             <span class="border-bottom"><img src="../cores/cor-15.jpg" class="rounded-3" alt="cor2" width="40px"
                     height="40px"></span> -->
-            <br>
+            <br><br>
             <!-- cores -->
 
             <p>tamanho -> 29cmx24cm</p>
@@ -130,7 +127,7 @@
             <p>Bolsa feita em crochê, com alça de ombro e fechamento em zíper. Ideal para uso diário, combina
                 estilo e praticidade.</p>
 
-            <p>estoque disponivel = quant.</p>
+            <p>estoque disponivel = quant. ou Sob encomenda</p>
 
             <div class="vazio">
 
@@ -169,8 +166,12 @@
             text-shadow: black 1px 1px 2px;
         }
 
+        span.border-bottom {
+           margin-left: 15px;
+        } 
+
         .vazio {
-            height: 55px;
+            height: 57px;
         }
     </style>
 
@@ -182,19 +183,6 @@
         let indiceAtual = 0;
         let minhasImagens = [
             '../img-bolsas/bolsa01-02.jpg',
-            '../img-bolsas/bolsa01-03.jpg',
-            '../img-bolsas/bolsa01-04.jpg',
-            '../img-bolsas/bolsa01-05.jpg',
-            '../img-bolsas/bolsa01-06.jpg',
-            '../img-bolsas/bolsa01-07.jpg',
-            '../img-bolsas/bolsa01-08.jpg',
-            '../img-bolsas/bolsa01-09.jpg',
-            '../img-bolsas/bolsa01-10.jpg',
-            '../img-bolsas/bolsa01-11.jpg',
-            '../img-bolsas/bolsa01-12.jpg',
-            '../img-bolsas/bolsa01-13.jpg',
-            '../img-bolsas/bolsa01-14.jpg',
-            '../img-bolsas/bolsa01-15.jpg',
             '../img-bolsas/bolsa01-01.jpg'
         ];
 
